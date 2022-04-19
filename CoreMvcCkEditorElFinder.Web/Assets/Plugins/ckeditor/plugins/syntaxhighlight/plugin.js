@@ -1,6 +1,6 @@
 ﻿CKEDITOR.plugins.add( 'syntaxhighlight', {
 	requires : 'dialog',
-	lang : 'en,tr', // %REMOVE_LINE_CORE%
+	lang : 'en', // %REMOVE_LINE_CORE%
 	icons : 'syntaxhighlight', // %REMOVE_LINE_CORE%
 	init : function( editor ) {
 		editor.addCommand( 'syntaxhighlightDialog', new CKEDITOR.dialogCommand( 'syntaxhighlightDialog', {
