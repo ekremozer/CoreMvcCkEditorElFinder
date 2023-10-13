@@ -33,7 +33,8 @@ namespace CoreMvcCkEditorElFinder.Web.Helper
                 Alias = "Dosyalarım", //Elfinder penceresinde görünen klasör adı
                 //MaxUploadSizeInKb = 2048, //Kullanıcı tarafından yüklenen dosyaya uygulanan sınır <= 2048 KB
                 //LockedFolders = new List<string>(new string[] { "Folder1" } //Kilitlenecek klasötlerin isimleri
-                ThumbnailSize = 100
+                ThumbnailSize = 100,
+                UploadOrder = new[] { "deny", "allow" }
             };
 
             driver.AddRoot(root);
